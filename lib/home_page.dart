@@ -78,7 +78,7 @@ class HomePage extends StatelessWidget {
                     icon: Icon(Icons.print),
                     label: Text('Print'),
                     style: TextButton.styleFrom(
-                        primary: Colors.white, backgroundColor: Colors.green),
+                        iconColor: Colors.white, backgroundColor: Colors.green),
                   ),
                 ),
               ],

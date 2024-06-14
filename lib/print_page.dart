@@ -55,8 +55,8 @@ class _PrintPageState extends State<PrintPage> {
               itemBuilder: (c, i) {
                 return ListTile(
                   leading: Icon(Icons.print),
-                  title: Text(_devices[i].name),
-                  subtitle: Text(_devices[i].address),
+                  title: Text(_devices[i].name ?? "N/A"),
+                  subtitle: Text(_devices[i].address ?? "N/A"),
                   onTap: () {
                     _startPrint(_devices[i]);
                   },
